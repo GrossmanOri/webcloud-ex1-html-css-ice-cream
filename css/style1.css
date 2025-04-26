@@ -1,0 +1,186 @@
+/* Wrapper */
+#wrapper {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+/* Header */
+.header-content {
+  width: 100%;
+  height: 64px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 24px;
+
+  /* Logo */
+  .logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .logo-img {
+    width: 64px;
+    height: 64px;
+    margin-right: 10px;
+  }
+
+  .logo-text {
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.25em;
+    color: #3e3f43;
+  }
+
+  /* Navigation */
+  .main-nav ul {
+    font-family: "Nunito";
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 0;
+  }
+
+  .main-nav ul li:nth-child(2) {
+    margin-left: 62px;
+  }
+  .main-nav ul li:nth-child(3) {
+    margin-left: 64px;
+  }
+  .main-nav ul li:nth-child(4) {
+    margin-left: 64px;
+  }
+
+  .nav-item {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "Nunito";
+    color: #612999;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .nav-item:hover {
+    color: #8345d3;
+  }
+
+  .nav-item.active {
+    font-weight: 700;
+  }
+}
+
+/* Ice Cream Hero Background */
+.ice-cream-background {
+  width: 100%;
+  height: auto; 
+  aspect-ratio: 1200 / 797; 
+  margin-top: 0;
+  background-image: url("../images/page 1 ice craem body 1.svg");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+
+ 
+  .welcome-text {
+    position: absolute;
+    margin-top: 32px;
+    margin-left: 32px;
+  }
+
+  .welcome-text h1 {
+    font-family: "Nunito";
+    font-size: 96px;
+    margin: 0;
+    color: #612999;
+  }
+
+  .welcome-text p {
+    font-family: "Nunito";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    margin-top: 16px;
+    color: #3e3f43;
+  }
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  height: 287px;
+  background-color: #efecff;
+
+  .footer-columns {
+    display: flex;
+    gap: 150px;
+  }
+
+  .footer-left,
+  .footer-right {
+    width: 126px;
+    padding-top: 32px;
+    padding-left: 32px;
+  }
+
+  .footer-left h1,
+  .footer-right h1 {
+    font-family: "Nunito";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #333;
+    margin-bottom: 16px;
+  }
+
+  .footer-left ul,
+  .footer-right ul {
+    font-family: "Nunito";
+    list-style: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .footer-right ul a {
+    text-decoration: none;
+    color: #333;
+    font-family: "Nunito";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+  }
+
+  .footer-logos {
+    display: flex;
+    margin-top: 24px;
+    padding-left: 32px;
+    gap: 24px;
+  }
+
+  .footer-logo-item img {
+    height: 24px;
+  }
+
+  .footer-copy {
+    font-family: "Nunito";
+    font-size: 14px;
+    color: #333;
+    padding-left: 32px;
+    margin-top: 16px;
+  }
+}
