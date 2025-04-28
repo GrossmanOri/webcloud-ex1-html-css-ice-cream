@@ -194,14 +194,6 @@
   border-radius: 24px;
 }
 
-.card-content {
-  padding: 16px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  flex-grow: 1;
-}
-
 .card-title {
   font-family: "Abel";
   font-weight: 400;
@@ -225,36 +217,28 @@
   margin-left: 32px;
 }
 
-.card-bottom {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  margin-left: 32px;
-  margin-bottom: 27px;
-  margin-top: auto;
-  gap: 94px;
-}
-
 .price-section {
-  display: flex;
-  align-items: center;
-}
-
-.card-price {
-  font-family: "Rubik", sans-serif;
-  font-size: 18px;
-  font-weight: 500;
+  position: absolute;
+  left: 32px;
+  bottom: 36px;
+  font-family: "Abel";
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 100%;
   color: #612999;
 }
 
 .cart-container {
-  position: relative;
+  position: absolute;
+  bottom: 27px;
+  left: 262px;
   width: 63px;
   height: 63px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .cart-link {
   display: flex;
   align-items: center;
