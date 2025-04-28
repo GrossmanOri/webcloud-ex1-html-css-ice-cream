@@ -15,6 +15,7 @@
   align-items: center;
   padding-block: 24px;
 }
+
 .logo-link {
   display: flex;
   align-items: center;
@@ -29,7 +30,7 @@
 }
 
 .logo-text {
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito";
   font-weight: 700;
   font-size: 24px;
   letter-spacing: 0.25em;
@@ -48,9 +49,11 @@
 .main-nav ul li:nth-child(2) {
   margin-left: 62px;
 }
+
 .main-nav ul li:nth-child(3) {
   margin-left: 64px;
 }
+
 .main-nav ul li:nth-child(4) {
   margin-left: 64px;
 }
@@ -62,6 +65,7 @@
   color: #612999;
   text-decoration: none;
   transition: color 0.3s ease;
+  cursor: pointer;
 }
 
 .nav-item:hover {
@@ -71,14 +75,15 @@
 .nav-item.active {
   font-weight: 700;
 }
+
 .ice-cream-background {
   width: 100%;
   height: 797px;
   aspect-ratio: 1200 / 797;
   margin-top: 0;
-  background-image: url("../images/page 1 ice craem body 1.svg");
+  background-image: url("../images/page1-ice-craem-body.svg");
   background-size: 100% auto;
-  background-position: center top;
+  background-position: center;
   background-repeat: no-repeat;
   position: relative;
   overflow: hidden;
@@ -107,9 +112,10 @@
 }
 
 .about-section {
-  margin-top: 80px;
+  margin-top: 32px;
   padding-right: 32px;
 }
+
 .about-section h2 {
   font-family: "Rubik";
   font-weight: 500;
@@ -118,6 +124,7 @@
   color: #612999;
   margin-bottom: 32px;
 }
+
 .about-section p {
   font-family: "Rubik";
   font-weight: 400;
@@ -136,11 +143,13 @@
   color: #612999;
   margin-bottom: 32px;
 }
+
 .cards-wrapper {
   width: 100%;
   display: flex;
   justify-content: center;
 }
+
 .cards-container {
   display: flex;
   flex-wrap: wrap;
@@ -148,6 +157,7 @@
   justify-content: flex-start;
   margin-bottom: 32px;
 }
+
 .card {
   position: relative;
   width: 376px;
@@ -158,6 +168,7 @@
   display: flex;
   flex-direction: column;
 }
+
 .heart-container {
   position: absolute;
   margin-top: 35px;
@@ -180,6 +191,7 @@
   width: 23px;
   height: 20px;
 }
+
 .heart-link {
   display: flex;
   align-items: center;
@@ -187,6 +199,7 @@
   width: 47px;
   height: 47px;
 }
+
 .card-img {
   width: 100%;
   height: 276px;
@@ -258,11 +271,13 @@
   width: 31px;
   height: 31px;
 }
+
 footer {
   width: 100%;
   height: 287px;
   background-color: #efecff;
 }
+
 .footer-columns {
   display: flex;
   gap: 150px;
@@ -275,8 +290,8 @@ footer {
   padding-left: 32px;
 }
 
-.footer-left h1,
-.footer-right h1 {
+.footer-left h2,
+.footer-right h2 {
   font-family: "Nunito";
   font-weight: 700;
   font-size: 18px;
@@ -300,6 +315,7 @@ footer {
   flex-direction: column;
   gap: 8px;
 }
+
 .footer-link {
   text-decoration: none;
   color: #333;
