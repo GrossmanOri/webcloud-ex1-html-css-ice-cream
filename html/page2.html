@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="../css/style1.css" />
+    <link rel="stylesheet" href="../css/style2.css" />
 </head>
 
 <body>
@@ -21,7 +21,7 @@
             <nav class="main-nav">
                 <ul>
                     <li><a href="index.html" class="nav-item">Home</a></li>
-                    <li><a href="page2.html" class="nav-item active">Our ice cream</a>
+                    <li><a href="page2.html" class="nav-item active">Our ice cream</a></li>
                     <li>
                         <a href="#" class="nav-item" onclick="return false;">About</a>
                     </li>
@@ -31,11 +31,78 @@
                 </ul>
             </nav>
         </header>
+        <section class="ice-creams-section">
+            <img src="../images/strawberry-page2.svg" alt="Strawberry Ice Cream" class="ice-cream-img" />
+            <img src="../images/Vanilla-page2.svg" alt="Vanilla Ice Cream" class="ice-cream-img" />
+            <img src="../images/pistachio-page2.svg" alt="Pistachio Ice Cream" class="ice-cream-img" />
+        </section>
+        <section class="ice-cream-list-section">
+            <h1 class="list-title">List of Ice Creams</h1>
+            <ul class="ice-cream-list">
+                <li class="ice-cream-item">
+                    <a href="javascript:void(0);" class="rocket-link">
+                        <img src="../images/little-logos/circle1.svg" alt="Purple Circle" class="rocket-background" />
+                        <img src="../images/little-logos/Group.svg" alt="Rocket Icon" class="rocket-icon" />
+                    </a>
+                    Vanilla Dream
+                </li>
+                <li class="ice-cream-item">
+                    <a href="javascript:void(0);" class="rocket-link">
+                        <img src="../images/little-logos/circle1.svg" alt="Purple Circle" class="rocket-background" />
+                        <img src="../images/little-logos/Group.svg" alt="Rocket Icon" class="rocket-icon" />
+                    </a>
+                    Chocolate Heaven
+                </li>
+                <li class="ice-cream-item">
+                    <a href="javascript:void(0);" class="rocket-link">
+                        <img src="../images/little-logos/circle1.svg" alt="Purple Circle" class="rocket-background" />
+                        <img src="../images/little-logos/Group.svg" alt="Rocket Icon" class="rocket-icon" />
+                    </a>
+                    Strawberry Bliss
+                </li>
+                <li class="ice-cream-item">
+                    <a href="javascript:void(0);" class="rocket-link">
+                        <img src="../images/little-logos/circle1.svg" alt="Purple Circle" class="rocket-background" />
+                        <img src="../images/little-logos/Group.svg" alt="Rocket Icon" class="rocket-icon" />
+                    </a>
+                    Pistachio Delight
+                </li>
+            </ul>
+        </section>
+        <section class="your-choice-section">
+            <section class="your-choice-box">
+              <h2 class="your-choice-title">Your Choice</h2>
+          
+              <p class="your-choice-subtitle">
+                Special deal: Get 1kg of our delicious ice cream for just $20!<br />
+                Choose any 4 flavors to mix and match your perfect treat.
+              </p>
+          
+              <form class="flavors-form">
+                <label class="flavor-option">
+                  <input type="checkbox" />
+                  Vanilla Dream
+                </label>
+                <label class="flavor-option">
+                  <input type="checkbox" />
+                  Chocolate Heaven
+                </label>
+                <label class="flavor-option">
+                  <input type="checkbox" />
+                  Strawberry Bliss
+                </label>
+                <label class="flavor-option">
+                  <input type="checkbox" />
+                  Pistachio Delight
+                </label>
+              </form>
+            </section>
+          </section>
     </section>
     <footer>
         <section class="footer-columns">
             <section class="footer-left">
-                <h2>WHO WE ARE</h2>
+                <h3>WHO WE ARE</h3>
                 <ul>
                     <li><a href="javascript:void(0)" class="footer-link">About</a></li>
                     <li><a href="javascript:void(0)" class="footer-link">Team</a></li>
@@ -46,7 +113,7 @@
             </section>
 
             <section class="footer-right">
-                <h2>FOLLOW US</h2>
+                <h3>FOLLOW US</h3>
                 <ul>
                     <li><a href="https://twitter.com/">Twitter</a></li>
                     <li><a href="https://www.facebook.com/">Facebook</a></li>
