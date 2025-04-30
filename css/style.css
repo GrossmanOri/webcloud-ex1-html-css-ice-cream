@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .wrapper {
   max-width: 1140px;
   margin: 0 auto;
@@ -6,7 +11,7 @@
 }
 
 .header-content {
-  width: 100%;
+  width: 1064px;
   height: 64px;
   margin-top: 32px;
   margin-bottom: 32px;
@@ -14,6 +19,7 @@
   justify-content: space-between;
   align-items: center;
   padding-block: 24px;
+  gap: 135px;
 }
 
 .logo-link {
@@ -41,8 +47,6 @@
   font-family: "Nunito";
   list-style: none;
   display: flex;
-  margin: 0;
-  padding: 0;
   gap: 0;
 }
 
@@ -98,7 +102,6 @@
 .welcome-text h1 {
   font-family: "Nunito";
   font-size: 96px;
-  margin: 0;
   color: #612999;
 }
 
@@ -156,6 +159,7 @@
   padding-left: 32px;
   padding-right: 32px;
   box-sizing: border-box;
+  margin-top: 32px;
 }
 
 .cards-container {
@@ -299,6 +303,8 @@ footer {
   padding-left: 32px;
 }
 
+.footer-left h3,
+.footer-right h3,
 .footer-left h4,
 .footer-right h4 {
   font-family: "Nunito";
@@ -318,8 +324,6 @@ footer {
   font-size: 16px;
   font-weight: 400;
   line-height: 100%;
-  padding: 0;
-  margin: 0;
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -358,4 +362,164 @@ footer {
   color: #333;
   padding-left: 32px;
   margin-top: 16px;
+}
+
+/* PAGE2 */
+
+.ice-creams-section {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 32px;
+}
+
+.ice-cream-img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border: 4px solid #e6dbfe;
+}
+
+.ice-cream-list-section {
+  margin-bottom: 64px;
+}
+
+.list-title {
+  font-family: "Rubik";
+  font-weight: 500;
+  font-size: 40px;
+  color: #612999;
+  margin: 0 0 32px 0;
+}
+
+.ice-cream-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.ice-cream-item {
+  display: flex;
+  align-items: center;
+  font-family: "Rubik";
+  font-size: 24px;
+  font-weight: 400;
+  color: #000;
+  line-height: 24px;
+}
+
+.rocket-link {
+  position: relative;
+  width: 82px;
+  height: 82px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.rocket-background {
+  width: 82px;
+  height: 82px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.rocket-icon {
+  position: absolute;
+  width: 29px;
+  height: 42px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.your-choice-section {
+  margin-top: 32px;
+  padding-right: 32px;
+  margin-bottom: 198px;
+}
+
+.your-choice-title {
+  font-family: "Rubik";
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 40px;
+  color: #612999;
+  margin-bottom: 32px;
+}
+
+.your-choice-box {
+  width: 100%;
+  height: 503px;
+  background-color: #efecff;
+  border-radius: 8px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-image-container {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+
+.box-decoration {
+  width: 300px;
+  flex-shrink: 0;
+  margin-right: 32px;
+}
+
+.your-choice-subtitle {
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 20px;
+  color: #3e3f43;
+  margin-bottom: 32px;
+  line-height: 1.5;
+}
+
+.flavors-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.flavor-option {
+  font-family: "Rubik";
+  font-size: 20px;
+  color: #000;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.flavor-option input[type="checkbox"] {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.submit-button {
+  margin-top: 32px;
+  width: 200px;
+  height: 60px;
+  background-color: #612999;
+  color: #ffffff;
+  font-family: "Rubik";
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #8345d3;
 }

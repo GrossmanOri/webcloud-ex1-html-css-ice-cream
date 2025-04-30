@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="../css/style2.css" />
+    <link rel="stylesheet" href="../css/style.css" />
 </head>
 
 <body>
@@ -20,8 +20,8 @@
             </a>
             <nav class="main-nav">
                 <ul>
-                    <li><a href="index.html" class="nav-item">Home</a></li>
-                    <li><a href="page2.html" class="nav-item active">Our ice cream</a></li>
+                    <li><a href="../index.html" class="nav-item">Home</a></li>
+                    <li><a href="../page2.html" class="nav-item active">Our ice cream</a></li>
                     <li>
                         <a href="#" class="nav-item" onclick="return false;">About</a>
                     </li>
@@ -71,33 +71,26 @@
         </section>
         <section class="your-choice-section">
             <section class="your-choice-box">
-              <h2 class="your-choice-title">Your Choice</h2>
-          
-              <p class="your-choice-subtitle">
-                Special deal: Get 1kg of our delicious ice cream for just $20!<br />
-                Choose any 4 flavors to mix and match your perfect treat.
-              </p>
-          
-              <form class="flavors-form">
-                <label class="flavor-option">
-                  <input type="checkbox" />
-                  Vanilla Dream
-                </label>
-                <label class="flavor-option">
-                  <input type="checkbox" />
-                  Chocolate Heaven
-                </label>
-                <label class="flavor-option">
-                  <input type="checkbox" />
-                  Strawberry Bliss
-                </label>
-                <label class="flavor-option">
-                  <input type="checkbox" />
-                  Pistachio Delight
-                </label>
-              </form>
+                <h2 class="your-choice-title">Your Choice</h2>
+
+                <p class="your-choice-subtitle">
+                    SPECIAL DEAL!!! Get 1kg of our delicious ice cream for just $20!<br />
+                    Choose any 4 flavors to mix and match your perfect treat.
+                </p>
+
+                <section class="form-image-container">
+                    <form class="flavors-form" onsubmit="return false;">
+                        <label class="flavor-option"><input type="checkbox" /> Vanilla Dream</label>
+                        <label class="flavor-option"><input type="checkbox" /> Chocolate Heaven</label>
+                        <label class="flavor-option"><input type="checkbox" /> Strawberry Bliss</label>
+                        <label class="flavor-option"><input type="checkbox" /> Pistachio Delight</label>
+                        <button class="submit-button" type="submit">Submit Your Flavors</button>
+                    </form>
+
+                    <img src="../images/ice-cream-box.svg" alt="Ice Cream Box Decoration" class="box-decoration" />
+                </section>
             </section>
-          </section>
+        </section>
     </section>
     <footer>
         <section class="footer-columns">
